@@ -1,0 +1,157 @@
+body,
+ul,
+li,
+p {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-image: linear-gradient(to top, #ea5935, #242020);
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.search-bar input[type="text"] {
+    padding: 5px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+}
+
+.search-bar button:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+nav {
+    background-color: #383838;
+    padding: 8px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    padding: 20px;
+    text-decoration: none;
+    color: #ea5935;
+}
+
+nav ul li a:hover {
+    color: #fff;
+}
+
+.main {
+    display: flex;
+    padding: 5px;
+}
+
+.imagens {
+    display: flex;
+    background-color: #7d7d7d;
+    padding: 10px;
+}
+
+.imagens:hover {
+    background-color: #fff;
+}
+
+.img1 {
+    height: 500px;
+    max-width: 600px;
+    background-color: rgb(105, 105, 105);
+}
+
+.lateral {
+    display: inline;
+    padding: 30px;
+}
+
+.img2 {
+    height: 90px;
+    padding-top: 10px;
+    background-color: #575757;
+}
+
+.img3 {
+    height: 92px;
+    margin-top: 92px;
+    background-color: #575757;
+}
+
+.img4 {
+    height: 90px;
+    margin-top: 80px;
+    background-color: #575757;
+
+}
+
+.text {
+    background-color: #ea5935;
+    margin: 30px;
+    width: 680px;
+    padding: 30px;
+    font-size: 30px;
+
+
+}
+
+.botoes {
+    display: flex;
+}
+
+button {
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 150px;
+}
+
+
+
+footer {
+    background-image: linear-gradient(to top, #ea5935, #242020);
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    color: #f36f4e;
+}
