@@ -1,0 +1,140 @@
+body,
+ul,
+li,
+p {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-image: linear-gradient(to top, #ea5935, #242020);
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.search-bar input[type="text"] {
+    padding: 5px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+}
+
+.search-bar button:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+nav {
+    background-color: #383838;
+    padding: 8px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    padding: 20px;
+    text-decoration: none;
+    color: #ea5935;
+}
+
+nav ul li a:hover {
+    color: #fff;
+}
+
+.coco {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 0px auto;
+
+    padding: 10 70px;
+    justify-content: space-around;
+}
+
+.protuto {
+    flex: 1 1 800px;
+    margin: 10px;
+
+    width: calc(33.33% - 20px);
+    border: 2px solid #ea5935;
+    padding: 2px;
+    margin-bottom: 20px;
+    background-color: #ea5935;
+}
+
+.protuto:hover {
+    background-color: #686868;
+    border: 2px solid #686868;
+}
+
+.protuto img {
+    align-items: center;
+    height: 150px;
+    max-width: 100%;
+}
+
+.protuto button {
+    color: white;
+    background-color: #333;
+    border-radius: 15%;
+}
+
+.protuto button:hover {
+    color: #333;
+    background-color: white;
+}
+
+
+
+footer {
+    background-image: linear-gradient(to top, #ea5935, #242020);
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    color: #f36f4e;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
